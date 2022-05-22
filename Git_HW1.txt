@@ -1,0 +1,236 @@
+GitHub. Homework 1
+
+JSON
+ 1. Создать внешний репозиторий c названием JSON.
+ 2. Клонировать репозиторий JSON на локальный компьютер.
+git clone https://github.com/tenera13/JSON.git
+
+ 6. Внутри локального JSON создать файл “new.json”.
+cd JSON
+touch new.json
+
+ 7. Добавить файл под гит.
+git add .
+
+ 8. Закоммитить файл.
+git commit -m "create file new"
+
+ 9. Отправить файл на внешний GitHub репозиторий.
+git push
+
+ 10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
+vim new.json 
+{
+"name":"Gubareva Alena Pavlovna",
+"age":30,
+"pets":0,
+"desired_salary":80000
+}
+
+11. Отправить изменения на внешний репозиторий.
+git commit -am "add text in new.json"
+git push
+
+ 12. Создать файл preferences.json
+touch preferences.json
+
+ 13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
+vim preferences.json
+ {
+"f_film":"The Truman show",
+"f_serias":"Sherlock",
+"f_food":"sushi",
+"f_season":"summer",
+"f_country":"Cyprus"
+}
+
+14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+ cat > skill.json
+{
+"s1":"linux terminal",
+"s2":"JS",
+"s3":"git"
+}
+
+15. Отправить сразу 2 файла на внешний репозиторий.
+git add .
+git commit -m "add preferences and skill"
+git push
+
+ 16. На веб интерфейсе создать файл bug_report.json.
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+{
+"title":"Application crashes upon clicking the SAVE button while creating a new user",
+"bug_ID":1,
+"reported_by":"gubareva",
+"severity":"critical",  
+"priority":"high",
+"environment":"windows 10,Edge 101.0.1210.32",vim
+"summary":"Application crashes upon clicking the SAVE button while creating a new the user, hence unable to create a new user in the application",
+"preconditions":"http://qwerty.com",
+"steps_to_reproduce":"1)Login into the Application 2)Navigate to the Users Menu -> New User 3)Filled out all the user information fields 4)Clicked on the ‘Save’ button",
+"expected_result":"you should be prompted to a successful message 'New User has been created successfully'",
+"actual_result":"Application crashes"  
+}
+
+ 19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 20. Синхронизировать внешний и локальный репозиторий JSON
+git fetch
+git pull
+
+
+XML
+ 21. Создать внешний репозиторий c названием XML.
+ 22. Клонировать репозиторий XML на локальный компьютер.
+git clone https://github.com/tenera13/XML.git
+
+ 23. Внутри локального XML создать файл “new.xml”.
+cd xml
+touch new.xml
+
+ 24. Добавить файл под гит.
+git add .
+
+ 25. Закоммитить файл.
+git commit -m "add new file"
+
+ 26. Отправить файл на внешний GitHub репозиторий.
+git push
+
+ 27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+<xml>
+	<name>Gubareva Alena Pavlovna</name>
+	<age>30</age>
+	<pets>0</pets>
+	<ds>80000</ds>
+</xml> 
+
+28. Отправить изменения на внешний репозиторий.
+git commit -am "add text to new"
+git push
+
+ 29. Создать файл preferences.xml
+touch preferences.xml
+
+30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+vim preferences.xml
+<xml>
+	<f_film>The Truman show</f_film>
+	<f_serias>Sherlock</f_serias>
+	<f_food>sushi</f_food>
+	<F_season>summer</f_season>
+	<F_country>Cyprus<f_country>
+</xml> 
+31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+touch skills.xml
+vim skills.xml
+<xml>
+	<s1>linux terminal</s1>
+	<s2>JS</s2>
+	<s3>git</s3>
+</xml>
+
+ 32. Сделать коммит в одну строку.
+git add . && git commit -m "add preferences and skills"
+
+ 33. Отправить сразу 2 файла на внешний репозиторий.
+git push
+
+ 34. На веб интерфейсе создать файл bug_report.xml.
+ 35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+<xml>
+<title>Application crashes upon clicking the SAVE button while creating a new user</title>
+<bug_ID>1</bug_ID>
+<reported_by>gubareva</reported_by>
+<severity>critical</severity>
+<priority>high</priority>
+<environment>windows 10,Edge 101.0.1210.32</environment>
+<summary>Application crashes upon clicking the SAVE button while creating a new the user, hence unable to create a new user in the application</summary>
+<preconditions>http://qwerty.com</preconditions>
+<steps_to_reproduce>1)Login into the Application 2)Navigate to the Users Menu -> New User 3)Filled out all the user information fields 4)Clicked on the ‘Save’ button</steps_to_reproduce>
+<expected_result>you should be prompted to a successful message 'New User has been created successfully'</expected_result>
+<actual_result>Application crashes</actual_result>  
+</xml>
+
+ 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 38. Синхронизировать внешний и локальный репозиторий XML
+ git fetch
+git pull
+
+TXT
+ 1. Создать внешний репозиторий c названием TXT.
+ 2. Клонировать репозиторий TXT на локальный компьютер.
+git clone https://github.com/tenera13/TXT.git
+
+ 3. Внутри локального TXT создать файл “new.txt”.
+cd txt
+touch new.txt
+
+ 4. Добавить файл под гит.
+git add .
+ 5. Закоммитить файл.
+ git commit -m "create new"
+
+ 6. Отправить файл на внешний GitHub репозиторий.
+git push
+
+ 7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
+vim new.txt 
+name: Gubareva Alena Pavlovna
+age: 30
+pets: 0
+desired salary: 80000
+
+8. Отправить изменения на внешний репозиторий.
+git commit -am "add text in new.txt"
+git push
+
+ 9. Создать файл preferences.txt
+touch preferences.txt
+
+ 10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
+ vim preferences.txt
+ f_film: The Truman show
+f_serias: Sherlock
+f_food: sushi
+f_season: summer
+f_country: Cyprus
+
+11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
+touch skills.txt
+vim skills.txt
+s1: lnux terminal
+s2: JS
+s3: git
+
+ 12. Сделать коммит в одну строку.
+git add . && git commit -m "add preferences and skills"
+
+ 13. Отправить сразу 2 файла на внешний репозиторий.
+git push
+
+ 14. На веб интерфейсе создать файл bug_report.txt.
+ 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
+title: Application crashes upon clicking the SAVE button while creating a new user
+bug_ID: 1
+reported_by: gubareva
+severity: critical
+priority: high
+environment: windows 10,Edge 101.0.1210.32
+summary: Application crashes upon clicking the SAVE button while creating a new the user, hence unable to create a new user in the application
+preconditions: http://qwerty.com
+steps_to_reproduce: 
+1)Login into the Application 
+2)Navigate to the Users Menu -> New User 
+3)Filled out all the user information fields 
+4)Clicked on the ‘Save’ button
+expected_result: you should be prompted to a successful message 'New User has been created successfully'
+actual_result: Application crashes
+
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 18. Синхронизировать внешний и локальный репозиторий TXT
+git fetch
+git pull
