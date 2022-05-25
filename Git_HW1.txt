@@ -1,6 +1,6 @@
 GitHub. Homework 1
 
-JSON
+JSON https://github.com/tenera13/JSON.git
 	1. Создать внешний репозиторий c названием JSON.
 
 Кнопка "New" -> ввести Repositorry name, галочка на Add a readme file -> кнопка Create repository
@@ -106,7 +106,7 @@ git fetch
 git pull
 
 
-XML
+XML (https://github.com/tenera13/XML.git)
 	1. Создать внешний репозиторий c названием XML.
 
 Кнопка "New" -> ввести Repositorry name, галочка на Add a readme file -> кнопка Create repository
@@ -214,7 +214,7 @@ Add file -> Create new file -> ввести имя файла
 git fetch
 git pull
 
-TXT
+TXT (https://github.com/tenera13/TXT.git)
 	1. Создать внешний репозиторий c названием TXT.
 
 Кнопка "New" -> ввести Repositorry name, галочка на Add a readme file -> кнопка Create repository

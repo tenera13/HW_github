@@ -1,5 +1,6 @@
 GitHub. Homework 2
 
+(https://github.com/tenera13/group_28.git)
 	1. На локальном репозитории сделать ветки для:
 - Postman
 - Jmeter
