@@ -35,6 +35,7 @@ vim new.json
 "pets":0,
 "desired_salary":80000
 }
+:wq
 
 	8. Отправить изменения на внешний репозиторий.
 
@@ -55,10 +56,11 @@ vim preferences.json
 "f_season":"summer",
 "f_country":"Cyprus"
 }
+:wq
 
-	11. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+	11. Создать файл skills.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
 
- cat > skill.json
+ cat > skills.json
 {
 "s1":"linux terminal",
 "s2":"JS",
@@ -68,7 +70,7 @@ vim preferences.json
 	12. Отправить сразу 2 файла на внешний репозиторий.
 
 git add .
-git commit -m "add preferences and skill"
+git commit -m "add preferences and skills"
 git push
 
 	13. На веб интерфейсе создать файл bug_report.json.
@@ -109,7 +111,7 @@ git pull
 XML (https://github.com/tenera13/XML.git)
 	1. Создать внешний репозиторий c названием XML.
 
-Кнопка "New" -> ввести Repositorry name, галочка на Add a readme file -> кнопка Create repository
+Кнопка "New" -> ввести Repository name, галочка на Add a readme file -> кнопка Create repository
 
 	2. Клонировать репозиторий XML на локальный компьютер.
 
@@ -141,6 +143,7 @@ vim new.xml
 	<pets>0</pets>
 	<ds>80000</ds>
 </xml> 
+:wq
 
 	8. Отправить изменения на внешний репозиторий.
 
@@ -161,6 +164,7 @@ vim preferences.xml
 	<F_season>summer</f_season>
 	<F_country>Cyprus<f_country>
 </xml> 
+:wq
 
 	11. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
 
@@ -171,6 +175,7 @@ vim skills.xml
 	<s2>JS</s2>
 	<s3>git</s3>
 </xml>
+:wq
 
 	12. Сделать коммит в одну строку.
 
@@ -247,6 +252,7 @@ name: Gubareva Alena Pavlovna
 age: 30
 pets: 0
 desired salary: 80000
+:wq
 
 	8. Отправить изменения на внешний репозиторий.
 
@@ -265,6 +271,7 @@ f_serias: Sherlock
 f_food: sushi
 f_season: summer
 f_country: Cyprus
+:wq
 
 	11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
 
@@ -273,6 +280,7 @@ vim skills.txt
 s1: lnux terminal
 s2: JS
 s3: git
+:wq
 
 	12. Сделать коммит в одну строку.
 
